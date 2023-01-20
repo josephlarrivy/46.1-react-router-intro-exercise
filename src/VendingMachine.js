@@ -9,9 +9,9 @@ const VendingMachine = () => {
     return (
         <>
             <h1>vending machine</h1>
-            <p>View <Link to="/chips">chips</Link></p>
-            <p>View <Link to="/candy">candy</Link></p>
-            <p>View <Link to="/soda">soda</Link></p>
+            <p>View <Link exact to="/chips">chips</Link></p>
+            <p>View <Link exact to="/candy">candy</Link></p>
+            <p>View <Link exact to="/soda">soda</Link></p>
         </>
     )
 }

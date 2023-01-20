@@ -1,14 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Router, Route, Link } from "react-router-dom";
 
 import './App.css';
 import VendingMachine from './VendingMachine';
 import Snack from './Snack';
 import NavBar from './Nav';
-
-
-
 import TestComponent from './TestComponent';
+
+import { BrowserRouter, Router, Route, Link } from "react-router-dom";
+
 
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       
-        {/* <NavBar /> */}
+        <NavBar />
 
         <Route exact path="/">
           <VendingMachine />
