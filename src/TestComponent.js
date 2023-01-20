@@ -2,13 +2,15 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 
-const Snack = (props) => {
-   
+const TestComponent = (props) => {
+    console.log('test')
+
+
     return (
         <>
-            <p>Snack: {props.item}</p>
+            <p>Test</p>
         </>
     )
 }
 
-export default Snack;
+export default TestComponent;
